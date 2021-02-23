@@ -52,6 +52,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
       );
       setTrailerUrl(trailerUrl.data.results[0]?.key);
     }
+    console.log(trailerUrl);
   };
   return (
     <div className="row">
